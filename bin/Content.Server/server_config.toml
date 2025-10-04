@@ -11,7 +11,7 @@ enabled = false
 [net]
 tickrate = 30
 port = 1212
-bindto = "::,0.0.0.0"
+bindto = "ss14s://v2.vehstation.net/veh"
 max_connections = 64
 # Automatic port forwarding!
 # Disabled by default because you may not want to do this.
@@ -24,12 +24,12 @@ enabled = true
 
 # This is the address and port the status server binds to.
 # The port is by default set based on net.port so it will follow what you set there.
-# bind = "*:1212"
+bind = "*:1212"
 
 # This is the address of the SS14 server as the launcher uses it.
 # This is only needed if you're proxying the status HTTP server -
 #  by default the launcher will assume the address and port match that of the status server.
-# connectaddress = "ss14s://v2.vehstation.net:1212"
+connectaddress = "ss14s://v2.vehstation.net/veh"
 
 [game]
 hostname = "🚀Вех станция[RU][MRP]"
