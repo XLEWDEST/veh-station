@@ -50,7 +50,7 @@ tags = ""
 # URL of your server. Fill this in if you have a domain name,
 # want to use HTTPS (with a reverse proxy), or other advanced scenarios.
 # Must be in the form of an ss14:// or ss14s:// URI pointing to the status API.
-server_url = "ss14s://"
+server_url = "ss14s://v2.vehstation.net/veh"
 # Comma-separated list of URLs of hub servers to advertise to.
 hub_urls = "https://hub.spacestation14.com/"
 
