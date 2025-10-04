@@ -1,0 +1,12 @@
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldOfficerIDCard
+  name: ID карта Офицера "Синий Щит"
+  components:
+    - type: Sprite
+      sprite: _Vex/Objects/Devices/id_cards.rsi
+      layers:
+        - state: centcom
+        - state: idblueshield
+    - type: PresetIdCard
+      job: BlueShieldOfficer

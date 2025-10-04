@@ -1,0 +1,19 @@
+2025-09-29T15:26:47.7132654+03:00 [INFO] srv: Name: MyServer
+2025-09-29T15:26:47.7147954+03:00 [INFO] srv: TickRate: 30(33,33ms)
+2025-09-29T15:26:47.7149245+03:00 [INFO] srv: Max players: 256
+2025-09-29T15:26:48.8359887+03:00 [INFO] szr: Serializer Types Hash: FD85FDFD8A788C1FE8D5EC8E5F261609982A6C2B8249218839F483DED66AB4A4
+2025-09-29T15:27:06.1596421+03:00 [ERRO] eng: /Prototypes/_Vex/AlertLevels/alert_level_none.yml document #1 is not a sequence! Did you forget to indent your prototype with a '-'?
+2025-09-29T15:27:14.4217277+03:00 [INFO] toolshed: Initialized new toolshed context in 00:00:00.1148706
+2025-09-29T15:27:14.4656018+03:00 [INFO] discord.link: No Discord token specified, not connecting.
+2025-09-29T15:27:14.5143914+03:00 [FATL] unhandled: System.Exception: Could not index map pool prototype DefaultMapPool!
+   at Content.Server.Maps.GameMapManager.AllVotableMaps()+MoveNext() in D:\vehstation\space-station-14\Content.Server\Maps\GameMapManager.cs:line 122
+   at System.Linq.Enumerable.<ToArray>g__EnumerableToArray|314_0[TSource](IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Content.Server.Maps.GameMapManager.Initialize() in D:\vehstation\space-station-14\Content.Server\Maps\GameMapManager.cs:line 86
+   at Content.Server.Entry.EntryPoint.PostInit() in D:\vehstation\space-station-14\Content.Server\Entry\EntryPoint.cs:line 170
+   at Robust.Shared.ContentPack.BaseModLoader.BroadcastRunLevel(ModRunLevel level) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\ContentPack\BaseModLoader.cs:line 85
+   at Robust.Server.BaseServer.Start(ServerOptions options, Func`1 logHandlerFactory) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\BaseServer.cs:line 405
+   at Robust.Server.Program.ParsedMain(CommandLineArgs args, Boolean contentStart, ServerOptions options) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\Program.cs:line 64
+   at Robust.Server.Program.Start(String[] args, ServerOptions options, Boolean contentStart) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\Program.cs:line 42
+   at Robust.Server.ContentStart.Start(String[] args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\ContentStart.cs:line 10
+   at Content.Server.Program.Main(String[] args) in D:\vehstation\space-station-14\Content.Server\Program.cs:line 9

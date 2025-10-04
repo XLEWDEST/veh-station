@@ -1,0 +1,12 @@
+D:\vehstation\space-station-14\Content.Shared.Database\bin\Release\net9.0\Content.Shared.Database.deps.json
+D:\vehstation\space-station-14\Content.Shared.Database\bin\Release\net9.0\Content.Shared.Database.dll
+D:\vehstation\space-station-14\Content.Shared.Database\bin\Release\net9.0\Content.Shared.Database.pdb
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.AssemblyInfoInputs.cache
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.AssemblyInfo.cs
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.csproj.CoreCompileInputs.cache
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.sourcelink.json
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.dll
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\refint\Content.Shared.Database.dll
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\Content.Shared.Database.pdb
+D:\vehstation\space-station-14\Content.Shared.Database\obj\Release\net9.0\ref\Content.Shared.Database.dll

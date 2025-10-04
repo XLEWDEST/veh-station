@@ -1,0 +1,287 @@
+22 exception s Robust.Shared.Prototypes.UnknownPrototypeException
+Exception in T Index[T](System.String), at 09/28/2025 15:31:01:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 257
+Exception in T Index[T](System.String), at 09/28/2025 15:31:01:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 257
+Exception in T Index[T](System.String), at 09/28/2025 15:31:02:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 257
+Exception in T Index[T](System.String), at 09/28/2025 15:31:02:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 257
+Exception in T Index[T](System.String), at 09/28/2025 15:31:03:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.<Initialize>b__9_0(Object _, Object systemMsg) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 53
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 257
+Exception in T Index[T](System.String), at 09/28/2025 15:31:04:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:31:04:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:31:52:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:31:53:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:33:58:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:33:58:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:33:59:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:33:59:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:00:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:00:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:00:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:01:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:01:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:03:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Server.Weapons.Ranged.Systems.GunSystem.GetDamage(BatteryAmmoProviderComponent component) in D:\vehstation\space-station-14\Content.Server\Weapons\Ranged\Systems\GunSystem.Battery.cs:line 114
+   at Content.Server.Weapons.Ranged.Systems.GunSystem.OnBatteryDamageExamine[T](Entity`1 entity, DamageExamineEvent& args) in D:\vehstation\space-station-14\Content.Server\Weapons\Ranged\Systems\GunSystem.Battery.cs:line 79
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass57_0`2.<SubscribeLocalEvent>g__EventHandler|0(EntityUid uid, IComponent comp, TEvent& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 324
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass67_0`1.<EntSubscribe>b__0(EntityUid uid, IComponent comp, Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 460
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent& args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 218
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent[TEvent](EntityUid uid, TEvent& args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 172
+   at Content.Shared.Damage.Systems.DamageExamineSystem.OnGetExamineVerbs(EntityUid uid, DamageExaminableComponent component, GetVerbsEvent`1 args) in D:\vehstation\space-station-14\Content.Shared\Damage\Systems\DamageExamineSystem.cs:line 30
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Verbs.SharedVerbSystem.GetLocalVerbs(EntityUid target, EntityUid user, List`1 types, List`1& extraCategories, Boolean force) in D:\vehstation\space-station-14\Content.Shared\Verbs\SharedVerbSystem.cs:line 127
+   at Content.Shared.Verbs.SharedVerbSystem.GetLocalVerbs(EntityUid target, EntityUid user, List`1 types, Boolean force) in D:\vehstation\space-station-14\Content.Shared\Verbs\SharedVerbSystem.cs:line 62
+   at Content.Server.Verbs.VerbSystem.HandleVerbRequest(RequestServerVerbsEvent args, EntitySessionEventArgs eventArgs) in D:\vehstation\space-station-14\Content.Server\Verbs\VerbSystem.cs:line 62
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:05:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:34:06:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.GetShootable(BatteryAmmoProviderComponent component, EntityCoordinates coordinates) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 107
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnBatteryTakeAmmo(EntityUid uid, BatteryAmmoProviderComponent component, TakeAmmoEvent args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.Battery.cs:line 66
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 327
+   at Content.Shared.Weapons.Ranged.Systems.SharedGunSystem.OnShootRequest(RequestShootEvent msg, EntitySessionEventArgs args) in D:\vehstation\space-station-14\Content.Shared\Weapons\Ranged\Systems\SharedGunSystem.cs:line 141
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230
+Exception in T Index[T](System.String), at 09/28/2025 15:50:58:
+Message: Unknown HitscanPrototype prototype: BlueLaser
+Catcher: DispatchEntityNetworkMessage(SystemMessage)
+Stack trace:    at Robust.Shared.Prototypes.PrototypeManager.Index[T](String id) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 258
+   at Content.Server.Weapons.Ranged.Systems.GunSystem.GetDamage(BatteryAmmoProviderComponent component) in D:\vehstation\space-station-14\Content.Server\Weapons\Ranged\Systems\GunSystem.Battery.cs:line 114
+   at Content.Server.Weapons.Ranged.Systems.GunSystem.OnBatteryDamageExamine[T](Entity`1 entity, DamageExamineEvent& args) in D:\vehstation\space-station-14\Content.Server\Weapons\Ranged\Systems\GunSystem.Battery.cs:line 79
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass57_0`2.<SubscribeLocalEvent>g__EventHandler|0(EntityUid uid, IComponent comp, TEvent& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 324
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass67_0`1.<EntSubscribe>b__0(EntityUid uid, IComponent comp, Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 460
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEventCore(EntityUid uid, Unit& unitRef, Type type, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 240
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent& args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 218
+   at Robust.Shared.GameObjects.EntitySystem.RaiseLocalEvent[TEvent](EntityUid uid, TEvent& args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntitySystem.cs:line 172
+   at Content.Shared.Damage.Systems.DamageExamineSystem.OnGetExamineVerbs(EntityUid uid, DamageExaminableComponent component, GetVerbsEvent`1 args) in D:\vehstation\space-station-14\Content.Shared\Damage\Systems\DamageExamineSystem.cs:line 30
+   at Robust.Shared.GameObjects.EntityEventBus.EntDispatch(EntityUid euid, Type eventType, Unit& args) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 633
+   at Robust.Shared.GameObjects.EntityEventBus.RaiseLocalEvent[TEvent](EntityUid uid, TEvent args, Boolean broadcast) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Directed.cs:line 200
+   at Content.Shared.Verbs.SharedVerbSystem.GetLocalVerbs(EntityUid target, EntityUid user, List`1 types, List`1& extraCategories, Boolean force) in D:\vehstation\space-station-14\Content.Shared\Verbs\SharedVerbSystem.cs:line 127
+   at Content.Shared.Verbs.SharedVerbSystem.GetLocalVerbs(EntityUid target, EntityUid user, List`1 types, Boolean force) in D:\vehstation\space-station-14\Content.Shared\Verbs\SharedVerbSystem.cs:line 62
+   at Content.Shared.Verbs.SharedVerbSystem.GetLocalVerbs(EntityUid target, EntityUid user, Type type, Boolean force) in D:\vehstation\space-station-14\Content.Shared\Verbs\SharedVerbSystem.cs:line 56
+   at Content.Server.Examine.ExamineSystem.ExamineInfoRequest(RequestExamineInfoMessage request, EntitySessionEventArgs eventArgs) in D:\vehstation\space-station-14\Content.Server\Examine\ExamineSystem.cs:line 70
+   at Robust.Shared.GameObjects.EntityEventBus.<>c__DisplayClass4_0`1.<SubscribeEvent>b__0(Unit& ev) in D:\vehstation\space-station-14\RobustToolbox\Robust.Shared\GameObjects\EntityEventBus.Broadcast.cs:line 173
+   at Robust.Server.GameObjects.ServerEntityManager.DispatchEntityNetworkMessage(MsgEntity message) in D:\vehstation\space-station-14\RobustToolbox\Robust.Server\GameObjects\ServerEntityManager.cs:line 230

@@ -1,0 +1,32 @@
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase, BaseCommandContraband]
+  id: ClothingBeltSheathBlueShield
+  name: сабельные ножны офицера "Синий Щит"
+  description: Ножны для сабли офицера "Синий Щит"
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/Belt/blueshield-sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _Vex/Clothing/Belt/blueshield-sheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: Sabre
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - BlueShieldSabre
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - BlueShieldSabre
+  - type: Appearance
+  

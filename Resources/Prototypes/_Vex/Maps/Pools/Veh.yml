@@ -1,0 +1,11 @@
+- type: gameMapPool
+  id: VehMapPool
+  maps:
+  # Highpop 55+
+  - VehPaper
+
+  # Midpop 25–55
+  - VehPaper
+
+  # Lowpop 0–25
+  - VehPaper

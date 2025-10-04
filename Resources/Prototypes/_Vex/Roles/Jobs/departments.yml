@@ -1,0 +1,9 @@
+- type: department
+  id: BlueShield
+  name: Спецподразделение "Синий Щит"
+  description: Защищает командование!
+  color: "#2740c3"
+  roles:
+  - BlueShieldOfficer
+  primary: false
+  weight: 90

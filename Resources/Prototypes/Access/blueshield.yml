@@ -1,0 +1,9 @@
+
+- type: accessLevel
+  id: BlueShield
+  name: id-card-access-level-blueshield
+
+- type: accessGroup
+  id: BlueShield
+  tags:
+  - BlueShield

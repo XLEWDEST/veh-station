@@ -1,0 +1,30 @@
+- type: entity
+  id: ClothingBeltWebbingBlueShieldFilled
+  parent: ClothingBeltMilitaryWebbingMed
+  name: РПС офицера "Синий Щит"
+  description: РПС, которую носят офицеры "Синий Щит"
+  suffix: Заполненный
+  components:
+  - type: StorageFill
+    contents:
+      - id: Hypospray
+      - id: ChemistryBottleEpinephrine
+      - id: ChemistryBottleEphedrine
+      - id: ChemistryBottleOmnizine
+      - id: ChemistryBottleOmnizine
+  - type: Sprite
+    sprite: _Vex/Clothing/Belt/webbing_blueshield.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/Belt/webbing_blueshield.rsi
+
+- type: entity
+  id: ClothingBeltWebbingBlueShield
+  parent: ClothingBeltMilitaryWebbingMed
+  name: РПС офицера "Синий Щит"
+  description: РПС, которую носят офицеры "Синий Щит"
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/Belt/webbing_blueshield.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/Belt/webbing_blueshield.rsi
+    

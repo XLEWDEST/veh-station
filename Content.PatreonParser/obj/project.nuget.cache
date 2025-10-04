@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hAtRZkOdlxI=",
+  "success": true,
+  "projectFilePath": "D:\\vehstation\\space-station-14\\Content.PatreonParser\\Content.PatreonParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\df220\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

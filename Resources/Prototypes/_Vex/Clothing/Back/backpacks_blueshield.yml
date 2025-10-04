@@ -1,0 +1,36 @@
+- type: entity
+  parent: ClothingBackpackERTSecurity
+  id: ClothingBlueshieldBackpack
+  name: рюкзак офицера "Синий Щит"
+  description: Рюкзак офицера синий щит, что тут такого?
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/back/blueshield_backpack.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/back/blueshield_backpack.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,6
+
+- type: entity
+  parent: ClothingBackpackERTSecurity
+  id: ClothingBlueshieldBackpackFilled
+  name: рюкзак офицера "Синий Щит"
+  description: Рюкзак офицера синий щит, что тут такого?
+  suffix: Заполненный
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/back/blueshield_backpack.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/back/blueshield_backpack.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,6
+  - type: StorageFill
+    contents:
+      - id: Handcuffs
+        amount: 2
+      - id: HandheldCrewMonitor
+      - id: TrackingImplanter
+        amount: 3
+      - id: BoxSurvivalSecurity

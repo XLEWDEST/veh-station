@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShield
+  name: комбинезон офицера "Синий щит"
+  description: Комбинезон Синего щита, что тут такого?
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/Uniforms/Jumpsuit/blueshield.rsi

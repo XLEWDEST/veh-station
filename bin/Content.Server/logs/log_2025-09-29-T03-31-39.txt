@@ -1,0 +1,13 @@
+2025-09-29T15:31:39.7099171+03:00 [INFO] srv: Name: MyServer
+2025-09-29T15:31:39.7114538+03:00 [INFO] srv: TickRate: 30(33,33ms)
+2025-09-29T15:31:39.7115802+03:00 [INFO] srv: Max players: 256
+2025-09-29T15:31:40.3855017+03:00 [INFO] szr: Serializer Types Hash: FD85FDFD8A788C1FE8D5EC8E5F261609982A6C2B8249218839F483DED66AB4A4
+2025-09-29T15:31:53.9479092+03:00 [INFO] toolshed: Initialized new toolshed context in 00:00:00.0861513
+2025-09-29T15:31:53.9583075+03:00 [INFO] discord.link: No Discord token specified, not connecting.
+2025-09-29T15:31:53.9607236+03:00 [INFO] ticker: Restarting round!
+2025-09-29T15:31:53.9769689+03:00 [INFO] system.mind: Wiping all minds
+2025-09-29T15:31:53.9804212+03:00 [INFO] entity: Flushing entities. Entity count: 0
+2025-09-29T15:31:54.3321369+03:00 [INFO] cvarcontrol: Registered 35 CVars.
+2025-09-29T15:31:54.5864662+03:00 [INFO] root: Server Version 266.0.0.0 -> Ready
+2025-09-29T15:31:54.5894889+03:00 [WARN] eng: MainLoop: Cannot keep up!
+2025-09-29T15:32:10.1691806+03:00 [INFO] srv: ProcessExited, shutting down...

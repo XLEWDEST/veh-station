@@ -1,0 +1,43 @@
+- type: job
+  id: BlueShieldOfficer
+  name: job-name-blueshieldofficer
+  description: Защищайте командование!
+  playTimeTracker: JobBlueShieldOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 13800 #3 hrs
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 13800 #3 hrs
+    - !type:RoleTimeRequirement
+      role: JobChiefMedicalOfficer
+      time: 13800 #3 hrs
+  weight: 5
+  startingGear: BlueShieldOfficerGear
+  icon: "JobIconBlueShieldOfficer"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - BlueShield
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: BlueShieldOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetAltCommand
+    shoes: ClothingShoesBootsCombatFilled
+    outerClothing: ClothingOuterArmorBasicBlueShield
+    gloves: ClothingHandsGlovesCombat
+    id: BlueshieldOfficerPDA
+    back: ClothingBlueshieldBackpackFilled
+    belt: ClothingBeltWebbingBlueShieldFilled
+    jumpsuit: ClothingUniformJumpsuitBlueShield
+    mask: ClothingMaskGasSecurity
+    head: ClothingHeadHatBeretBlueShield

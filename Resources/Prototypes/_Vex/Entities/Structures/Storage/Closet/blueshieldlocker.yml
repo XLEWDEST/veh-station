@@ -1,0 +1,26 @@
+# BlueShield
+- type: entity
+  id: LockerBlueShieldOfficer
+  parent: LockerBaseSecure
+  name: шкаф офицера "синий щит"
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: blueshield
+    stateDoorOpen: blueshield_open
+    stateDoorClosed: blueshield_door
+  - type: AccessReader
+    access: [["BlueShield"]]
+
+- type: entity
+  id: GunSafeBlueShieldOfficer
+  parent: GunSafe
+  name: сейф офицера "синий щит"
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: shotguncase
+    stateDoorOpen: shotguncase_open
+    stateDoorClosed: shotguncase_door
+  - type: AccessReader
+    access: [["BlueShield"]]

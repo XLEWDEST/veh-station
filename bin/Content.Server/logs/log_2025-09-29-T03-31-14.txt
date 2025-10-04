@@ -1,0 +1,5 @@
+2025-09-29T15:31:14.7104757+03:00 [INFO] srv: Name: MyServer
+2025-09-29T15:31:14.7120253+03:00 [INFO] srv: TickRate: 30(33,33ms)
+2025-09-29T15:31:14.7121502+03:00 [INFO] srv: Max players: 256
+2025-09-29T15:31:15.3958078+03:00 [INFO] szr: Serializer Types Hash: FD85FDFD8A788C1FE8D5EC8E5F261609982A6C2B8249218839F483DED66AB4A4
+2025-09-29T15:31:22.3350473+03:00 [ERRO] eng: /Prototypes/_Vex/AlertLevels/alert_level_none.yml document #1 is not a sequence! Did you forget to indent your prototype with a '-'?

@@ -1,0 +1,125 @@
+- type: entityTable
+  id: LockerFillBlueShieldAll
+  table: !type:AllSelector
+    children:
+    - id: ClothingBeltBlueShieldSheathFilled
+    - id: ClothingHeadsetAltCommand
+    - id: ClothingShoesBootsMagBlueshield
+    - id: WeaponBlueShieldDisabler
+    - id: WeaponBlueShieldLaser
+    - id: WeaponBlueShieldLaserCarbine
+    - id: PinpointerUniversal
+    - id: WeaponSubMachineGunDrozd
+    - id: MagazinePistolSubMachineGun
+    - id: MagazinePistolSubMachineGun
+    - id: PinpointerNuclear
+
+- type: entityTable
+  id: LockerFillBlueShield
+  table: !type:AllSelector
+    children:
+    - id: ClothingBeltBlueShieldSheathFilled
+    - id: ClothingHeadsetAltCommand
+    - id: ClothingShoesBootsMagBlueshield
+    - id: PinpointerUniversal
+    - id: PinpointerNuclear
+
+- type: entityTable
+  id: LockerFillBlueShieldWeapon
+  table: !type:AllSelector
+    children:
+    - id: ClothingBeltBlueShieldSheathFilled
+    - id: ClothingHeadsetAltCommand
+    - id: ClothingShoesBootsMagBlueshield
+    - id: WeaponBlueShieldDisabler
+    - id: WeaponBlueShieldLaser
+    - id: WeaponBlueShieldLaserCarbine
+    - id: PinpointerUniversal
+    - id: PinpointerNuclear
+
+- type: entity
+  id: LockerBlueShieldOfficerFilledAll
+  suffix: Оружие, Дрозд
+  parent: LockerBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueShieldAll
+
+- type: entity
+  id: LockerBlueShieldOfficerFilledWeapon
+  suffix: Оружие
+  parent: LockerBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueShieldWeapon
+
+- type: entity
+  id: LockerBlueShieldOfficerFilled
+  suffix: Filled
+  parent: LockerBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueShield
+
+- type: entityTable
+  id: GunSafeFillBlueShieldAll
+  table: !type:AllSelector
+    children:
+    - id: WeaponBlueShieldDisabler
+    - id: WeaponBlueShieldLaser
+    - id: WeaponBlueShieldLaserCarbine
+    - id: WeaponSubMachineGunDrozd
+    - id: MagazinePistolSubMachineGun
+    - id: MagazinePistolSubMachineGun
+
+- type: entity
+  id: GunSafeBlueShieldOfficerFilledAll
+  suffix: Оружие, Дрозд
+  parent: GunSafeBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: GunSafeFillBlueShieldAll
+
+- type: entityTable
+  id: GunSafeFillBlueShieldWeapon
+  table: !type:AllSelector
+    children:
+    - id: WeaponBlueShieldDisabler
+    - id: WeaponBlueShieldLaser
+    - id: WeaponBlueShieldLaserCarbine
+
+- type: entity
+  id: GunSafeBlueShieldOfficerFilledWeapon
+  suffix: Оружие
+  parent: GunSafeBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: GunSafeFillBlueShieldWeapon
+
+- type: entityTable
+  id: GunSafeFillBlueShield
+  table: !type:AllSelector
+    children:
+    - id: WeaponSubMachineGunDrozd
+    - id: MagazinePistolSubMachineGun
+    - id: MagazinePistolSubMachineGun
+
+- type: entity
+  id: GunSafeBlueShieldOfficerFilled
+  suffix: Дрозд
+  parent: GunSafeBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: GunSafeFillBlueShield

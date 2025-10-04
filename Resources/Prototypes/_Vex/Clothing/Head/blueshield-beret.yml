@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueShield
+  name: берет офицера "Синий Щит"
+  description: берет, офицера "Синий Щит".
+  components:
+  - type: Sprite
+    sprite: _Vex/Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: _Vex/Clothing/Head/Hats/beret_blueshield.rsi

@@ -1,0 +1,125 @@
+- type: entity
+  name: MX-1 Лазерный пистолет
+  parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
+  id: WeaponBlueShieldLaser
+  description: Экспериментальный лазерный пистолет MX-1 для офицеров Синий Щит
+  components:
+  - type: Item
+    size: Normal  # Intentionally larger than other pistols
+  - type: Sprite
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshieldlasergun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshieldlasergun.rsi
+    quickEquip: false
+    slots:
+      - suitStorage
+      - Belt
+      - Pocket
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 2
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaser
+    fireCost: 100
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 63
+
+- type: entity
+  name: MX-1 Станнер
+  parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
+  id: WeaponBlueShieldDisabler
+  description: Экспериментальный станнер MX-1 для офицеров Синий Щит
+  components:
+  - type: Item
+    size: Normal  # Intentionally larger than other pistols
+  - type: Sprite
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshielddisablergun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshielddisablergun.rsi
+    quickEquip: false
+    slots:
+      - suitStorage
+      - Belt
+      - Pocket
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 2
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 62.5
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 63
+
+- type: entity
+  name: MX-1 Лазерная винтовка
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
+  id: WeaponBlueShieldLaserCarbine
+  description: Экспериментальный лазерный карабин MX-1 для офицеров Синий Щит
+  components:
+  - type: Sprite
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshieldlasercarbine.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
+  - type: Clothing
+    sprite: _Vex/Objects/Weapon/Guns/Battery/blueshieldlasercarbine.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 2
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: BlueLaser
+    fireCost: 200
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 25
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
